@@ -2,7 +2,7 @@
 
 # asdf-chicken [![Build](https://github.com/joeljuca/asdf-chicken/actions/workflows/build.yml/badge.svg)](https://github.com/joeljuca/asdf-chicken/actions/workflows/build.yml) [![Lint](https://github.com/joeljuca/asdf-chicken/actions/workflows/lint.yml/badge.svg)](https://github.com/joeljuca/asdf-chicken/actions/workflows/lint.yml)
 
-[chicken](https://www.call-cc.org) plugin for the [asdf version manager](https://asdf-vm.com).
+[CHICKEN](https://www.call-cc.org) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -30,7 +30,7 @@ asdf plugin add chicken
 asdf plugin add chicken https://github.com/joeljuca/asdf-chicken.git
 ```
 
-chicken:
+CHICKEN:
 
 ```shell
 # Show all installable versions
