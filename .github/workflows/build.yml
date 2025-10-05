@@ -25,4 +25,12 @@ jobs:
 
       - run: asdf install chicken ${{ steps.get_chicken_version.outputs.version }}
       - run: asdf set chicken ${{ steps.get_chicken_version.outputs.version }}
+
+      # fix error "Library not loaded: libchicken.dylib"
+      - if: runner.os == 'macOS'
+        run: |
+          chicken_install_path="$(asdf where chicken)"
+          echo "DYLD_LIBRARY_PATH=${chicken_install_path}/lib" >> "$GITHUB_ENV"
+          echo "DYLD_FALLBACK_LIBRARY_PATH=${chicken_install_path}/lib" >> "$GITHUB_ENV"
+
       - run: chicken -help
