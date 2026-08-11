@@ -14,6 +14,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       # v4.0.0. https://github.com/asdf-vm/actions/tree/v4.0.0
       - uses: asdf-vm/actions/setup@1902764435ca0dd2f3388eea723a4f92a4eb8302
