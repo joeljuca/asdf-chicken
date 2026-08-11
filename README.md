@@ -1,10 +1,10 @@
-<div align="center">
+# [asdf-chicken](https://github.com/joeljuca/asdf-chicken)
 
-# asdf-chicken [![Build](https://github.com/joeljuca/asdf-chicken/actions/workflows/build.yml/badge.svg)](https://github.com/joeljuca/asdf-chicken/actions/workflows/build.yml) [![Lint](https://github.com/joeljuca/asdf-chicken/actions/workflows/lint.yml/badge.svg)](https://github.com/joeljuca/asdf-chicken/actions/workflows/lint.yml)
+[![Build](https://github.com/joeljuca/asdf-chicken/actions/workflows/build.yml/badge.svg)](https://github.com/joeljuca/asdf-chicken/actions/workflows/build.yml)
+[![Lint](https://github.com/joeljuca/asdf-chicken/actions/workflows/lint.yml/badge.svg)](https://github.com/joeljuca/asdf-chicken/actions/workflows/lint.yml)
+[![Author](https://img.shields.io/badge/joeljuca.com-white?logo=google-chrome)](https://joeljuca.com)
 
-[CHICKEN](https://www.call-cc.org) plugin for the [asdf version manager](https://asdf-vm.com).
-
-</div>
+[asdf](https://asdf-vm.com) plugin for [CHICKEN](https://www.call-cc.org).
 
 # Contents
 
@@ -15,10 +15,7 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
-- `bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- `bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html)
 
 # Install
 
@@ -46,8 +43,7 @@ asdf global chicken latest
 chicken -help
 ```
 
-Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
-install & manage versions.
+Check [asdf-vm.com](https://asdf-vm.com/) for more instructions on how to install & manage versions.
 
 # Contributing
 
